@@ -177,13 +177,88 @@
 // console.log(fruits.includes("яблоко"));
 // console.log(fruits.includes("манго"));
 
-let city = ["Москва","Питер","Екатеринбург"]
+// let city = ["Москва","Питер","Екатеринбург"]
 
-function search(CityForSearch,arr = city){
-    if (arr.includes(CityForSearch)){
-        return arr.indexOf(CityForSearch)
-    }
-    return "Error" 
-}
+// function search(CityForSearch,arr = city){
+//     if (arr.includes(CityForSearch)){
+//         return arr.indexOf(CityForSearch)
+//     }
+//     return "Error" 
+// }
 
-console.log(search());
+// console.log(search());
+
+// let user2 = {
+//     name: "Ivan",
+//     age: 20,
+//     isStudent: true,
+// };
+
+// console.log(user2);
+
+// // Через точку:
+// console.log(user2.name);  // "Ivan"
+// console.log(user2.age);   // 20
+
+// console.log(user2["name"]); // "Ivan"
+
+// let book = {
+//     title: "test",
+//     author: "test",
+//     year: 2026
+// }
+// console.log(book.title, book.author, book.year);
+// book.year = 2027
+// console.log(book.title, book.author, book.year);
+
+// user2.age = 30;
+// user2.name = "Кирилл";
+// delete user2.isStudent;
+// console.log(user2);
+
+
+
+// let user2 = {
+//     name: "Ivan",
+//     age: 20,
+//     isStudent: true,
+//     sayHello: function () {
+//         console.log(`Hello, my name is ${this.name}`);
+//     }
+// };
+
+// user2.sayHello();
+
+// let car = {
+//     brand: "BMW",
+//     year: 2016,
+//     getInfo: function(){
+//         console.log(this.brand, this.year);
+//     }
+// }
+
+// car.getInfo()
+
+// for (let key in user2) {
+//     console.log(key + ":" + user2[key]);
+// }
+
+// let product = {
+//     first: "1111",
+//     second: 1111
+// }
+// for (let i in product){
+//     console.log(product[i]);
+// }
+
+// let student = {
+//     name: "Григорий",
+//     skills: ["HTML", "CSS", "JS"],
+//     address: {
+//         city: "Волжский",
+//         street: "Пушкина",
+//     },
+// };
+
+// console.log(student.skills[0]);   
+// console.log(student.address.city);    
