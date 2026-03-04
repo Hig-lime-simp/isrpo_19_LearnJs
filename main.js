@@ -59,10 +59,76 @@
 //     }
 // }
 
-for (let i = 1; i <= 4; i++) {
-    let string = "";
-    for (let j = 1; j <= i; j++) {
-        string += "*";
-    }
-    console.log(string);
-}
+// for (let i = 1; i <= 4; i++) {
+//     let string = "";
+//     for (let j = 1; j <= i; j++) {
+//         string += "*";
+//     }
+//     console.log(string);
+// }
+
+// function sum(a, b) {
+//     return a + b;
+// }
+
+// console.log(sum(3, 5));
+
+// function multiply(a, b) {
+//     return a * b;
+// }
+
+// console.log(multiply(3,5))
+
+// function printInfo(name,age){
+//     console.log(`Меня зовут ${name}, мне ${age}`)
+// }
+
+// printInfo("Никита", 18)
+
+// function calculateDiscount(price, persent = 10.00){
+//     return price * (persent / 100)
+// }
+
+// console.log(calculateDiscount(1000, 2))
+
+// const add = function (a, b) {
+//     return a + b;
+// };
+
+// console.log(add(2, 3)); 
+
+// function makeCounter() {
+//     let count = 0; // Локальная переменная
+//     return function () {
+//         count++; // Функция "помнит" count
+//         return count;
+//     };
+// }
+
+// const counter = makeCounter();
+// console.log(counter()); // 1
+// console.log(counter()); // 2
+// console.log(counter()); // 3
+
+// Обычная функция
+// function sumFunc(a, b) {
+//     return a + b;
+// }
+
+// const sumFunc2 = (a, b) => a + b;
+
+// const double = x => x * 2;
+
+// const sumFunc3 = (a, b) => a + b;
+
+// const sayGreeting = () => console.log("Hello");
+
+// const square = x => x * x; // return автоматически
+
+// const calculate = (a, b) => {
+//     let result = a + b;
+//     return result * 2;
+// };
+
+// console.log(calculate(1,2))
+
