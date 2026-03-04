@@ -227,38 +227,38 @@
 //     }
 // };
 
-// user2.sayHello();
+user2.sayHello();
 
-// let car = {
-//     brand: "BMW",
-//     year: 2016,
-//     getInfo: function(){
-//         console.log(this.brand, this.year);
-//     }
-// }
+let car = {
+    brand: "BMW",
+    year: 2016,
+    getInfo: function(){
+        console.log(this.brand, this.year);
+    }
+}
 
-// car.getInfo()
+car.getInfo()
 
-// for (let key in user2) {
-//     console.log(key + ":" + user2[key]);
-// }
+for (let key in user2) {
+    console.log(key + ":" + user2[key]);
+}
 
-// let product = {
-//     first: "1111",
-//     second: 1111
-// }
-// for (let i in product){
-//     console.log(product[i]);
-// }
+let product = {
+    first: "1111",
+    second: 1111
+}
+for (let i in product){
+    console.log(product[i]);
+}
 
-// let student = {
-//     name: "Григорий",
-//     skills: ["HTML", "CSS", "JS"],
-//     address: {
-//         city: "Волжский",
-//         street: "Пушкина",
-//     },
-// };
+let student = {
+    name: "Григорий",
+    skills: ["HTML", "CSS", "JS"],
+    address: {
+        city: "Волжский",
+        street: "Пушкина",
+    },
+};
 
-// console.log(student.skills[0]);   
-// console.log(student.address.city);    
+console.log(student.skills[0]);   
+console.log(student.address.city);    
