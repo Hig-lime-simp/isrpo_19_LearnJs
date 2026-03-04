@@ -132,3 +132,58 @@
 
 // console.log(calculate(1,2))
 
+// let numbersArr = [1, 2, 3, 4, 5];
+// console.log(numbersArr);
+
+// console.log(numbersArr[0]); 
+// console.log(numbersArr[1]); 
+
+// let colors = ["Red","Green","Blue"]
+// console.log(colors[0]);
+// console.log(colors.slice(-1)[0]);
+// colors[1] = "White"
+// console.log(colors);
+
+// console.log(numbersArr.length);
+
+// numbersArr.push(10);
+// console.log(numbersArr);
+
+// numbersArr.pop();
+// console.log(numbersArr);
+
+// let student = [];
+// student.push("Имя1");
+// student.push("Имя2");
+// student.push("Имя3");
+// student.pop();
+// console.log(student);
+
+// let numbers2 = [10, 20, 30];
+// for (let i = 0; i < numbers2.length; i++) {
+//     console.log(numbers2[i]);
+// }
+
+// for (let value of numbers2) {
+//     console.log(value);
+// }
+
+// let mixedArray = [1, "text", true, 3.14];
+// console.log(mixedArray);
+
+// console.log(numbersArr.indexOf(2)); 
+
+// let fruits = ["яблоко", "банан", "апельсин"];
+// console.log(fruits.includes("яблоко"));
+// console.log(fruits.includes("манго"));
+
+let city = ["Москва","Питер","Екатеринбург"]
+
+function search(CityForSearch,arr = city){
+    if (arr.includes(CityForSearch)){
+        return arr.indexOf(CityForSearch)
+    }
+    return "Error" 
+}
+
+console.log(search());
